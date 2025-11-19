@@ -1,5 +1,7 @@
+using System;
 using UnityEngine;
 
+[Obsolete("This component is deprecated. Use DOTween.LocalScaler instead.", true)]
 public class LocalScaler : MonoBehaviour
 {
     [SerializeField] private Vector3 _speed = new Vector3(0.1f, 0.1f, 0.1f);
